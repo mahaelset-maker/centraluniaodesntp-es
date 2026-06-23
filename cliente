@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head> <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18224976388"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-18224976388');
+</script>
+
+  <!-- Event snippet for Visualização de página (1) conversion page -->
+<script>
+  gtag('event', 'conversion', {
+      'send_to': 'AW-18224976388/RJ2uCLvm5sMcEISkrPJD',
+      'value': 1.0,
+      'currency': 'BRL'
+  });
+</script>
+
+  <!-- Event snippet for Visualização de página (1) conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-18224976388/RJ2uCLvm5sMcEISkrPJD',
+      'value': 1.0,
+      'currency': 'BRL',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
+
+
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desentupidora União | Soluções Ambientais & Serviços</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        /* --- Reset e Estilos Globais --- */
+        :root {
+            --primary: #0f172a; /* Azul Escuro Profundo */
+            --secondary: #0284c7; /* Azul Saneamento Limpo */
+            --accent: #22c55e; /* Verde Sustentabilidade/Solução */
+            --background: #f8fafc; /* Cinza claro suave */
+            --text-dark: #1e293b;
+            --text-light: #fff;
+            --shadow-sm: 0 2px 4px rgba(0,0,0,0.05);
+            --shadow-md: 0 4px 12px rgba(0,0,0,0.08);
+            --shadow-lg: 0 10px 30px rgba(0,0,0,0.1);
+            --border-radius: 12px;
+            --transition: all 0.3s ease;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: var(--background);
+            color: var(--text-dark);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        a { text-decoration: none; color: inherit; transition: var(--transition); }
+        ul { list-style: none; }
+
+        /* --- Header / Navegação --- */
+        header {
+            background-color: #fff;
+            padding: 1rem 5%;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            box-shadow: var(--shadow-sm);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: var(--primary);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .logo-icon {
+            color: var(--secondary);
+            font-size: 2.2rem;
+        }
+
+        nav ul {
+            display: flex;
+            gap: 2rem;
+        }
+
+        nav a {
+            font-weight: 600;
+            color: var(--primary);
+            font-size: 0.9rem;
+        }
+
+        nav a:hover {
+            color: var(--secondary);
+        }
+
+        .cta-button {
+            background: linear-gradient(135deg, var(--secondary), #0369a1);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            box-shadow: 0 4px 10px rgba(2, 132, 199, 0.3);
+        }
+
+        .cta-button:hover {
+            box-shadow: 0 6px 15px rgba(2, 132, 199, 0.4);
+            transform: translateY(-1px);
+        }
+
+        /* --- Seção Hero / Principal --- */
+        .hero {
+            height: 75vh;
+            background: linear-gradient(135deg, rgba(15, 23, 42, 0.95), rgba(2, 132, 199, 0.75)), 
+                        url('https://images.unsplash.com/photo-1581094288338-2314dddb7ece?q=80&w=2070&auto=format&fit=crop') no-repeat center center/cover;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 0 5%;
+            position: relative;
+        }
+
+        .hero::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 10vh;
+            background: linear-gradient(to top, var(--background), transparent);
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            animation: fadeInUp 0.8s ease-out;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 700px;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+            animation: fadeInUp 1s ease-out 0.2s backwards;
+        }
+
+        .hero .tagline {
+            font-size: 0.9rem;
+            opacity: 0.8;
+            background: rgba(255,255,255,0.1);
+            padding: 5px 15px;
+            border-radius: 50px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        /* --- Layout de Grid e Container Global --- */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto 4rem auto;
+            padding: 0 5%;
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 2rem;
+            position: relative;
+            z-index: 10;
+        }
+
+        /* --- Estilo de Cards Modernos --- */
+        .card {
+            background-color: white;
+            padding: 2.5rem;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow-lg);
+            border: 1px solid rgba(0,0,0,0.02);
+        }
+
+        /* --- Seção de Serviços --- */
+        #servicos {
+            grid-column: 1 / -1;
+            margin-top: -50px;
+            margin-bottom: 2rem;
+        }
+
+        .services-header {
+            text-align: center;
+            margin-bottom: 2.5rem;
+        }
+
+        .section-tag {
+            color: var(--accent);
+            font-weight: 700;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 5px;
+            display: block;
+        }
+
+        .section-title {
+            color: var(--primary);
+            font-size: 2.2rem;
+            font-weight: 700;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .service-card {
+            background: white;
+            padding: 2rem 1.5rem;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow-md);
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            transition: var(--transition);
+        }
+
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+        }
+
+        .service-icon {
+            font-size: 2.3rem;
+            color: var(--secondary);
+            background-color: #f0f9ff;
+            padding: 15px;
+            border-radius: 50%;
+        }
+
+        .service-card h3 {
+            font-size: 1.1rem;
+            color: var(--primary);
+            font-weight: 600;
+        }
+
+        /* --- Informações de Atendimento / Sobre --- */
+        .card h2 {
+            font-size: 1.6rem;
+            color: var(--primary);
+            margin-bottom: 1.8rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .info-list {
+            display: flex;
+            flex-direction: column;
+            gap: 1.1rem;
+        }
+
+        .info-item {
+            display: grid;
+            grid-template-columns: 200px 1fr;
+            align-items: center;
+            padding-bottom: 12px;
+            border-bottom: 1px solid #f1f5f9;
+        }
+
+        .info-key {
+            font-weight: 600;
+            color: #64748b;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .info-value {
+            color: var(--text-dark);
+            font-size: 0.95rem;
+        }
+
+        .status-badge {
+            background-color: #dcfce7;
+            color: #166534;
+            padding: 4px 12px;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 0.75rem;
+        }
+
+        /* --- Sidebar com Contatos --- */
+        .sidebar {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+
+        .sidebar-card {
+            background-color: white;
+            padding: 2rem;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow-md);
+        }
+
+        .sidebar h3 {
+            font-size: 1.3rem;
+            margin-bottom: 1.5rem;
+            color: var(--primary);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .contact-method {
+            display: flex;
+            align-items: flex-start;
+            gap: 15px;
+            margin-bottom: 1.2rem;
+        }
+
+        .contact-icon {
+            font-size: 1.4rem;
+            color: var(--secondary);
+            margin-top: 3px;
+        }
+
+        .contact-method a:hover {
+            color: var(--secondary);
+            text-decoration: underline;
+        }
+
+        /* --- Footer --- */
+        footer {
+            background-color: var(--primary);
+            color: rgba(255,255,255,0.7);
+            text-align: center;
+            padding: 3rem 0;
+        }
+
+        footer p {
+            font-size: 0.9rem;
+        }
+
+        /* --- Animações e Responsividade --- */
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @media (max-width: 992px) {
+            .container { grid-template-columns: 1fr; }
+            .hero h1 { font-size: 2.8rem; }
+            #servicos { margin-top: 0; }
+        }
+
+        @media (max-width: 600px) {
+            .hero h1 { font-size: 2rem; }
+            header { flex-direction: column; gap: 10px; padding: 1rem; }
+            nav ul { gap: 1rem; }
+            .info-item { grid-template-columns: 1fr; gap: 4px; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <span class="material-symbols-outlined logo-icon">plumbing</span>
+            Desentupidora União
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#institucional">Diferenciais</a></li>
+                <li><a href="#contatos">Atendimento</a></li>
+            </ul>
+        </nav>
+        <a href="#contatos" class="cta-button">Solicitar Visita</a>
+    </header>
+
+    <div class="hero">
+        <div class="tagline">
+            <span class="material-symbols-outlined" style="font-size: 1.1rem; color: var(--accent)">verified</span>
+            Atendimento Emergencial 24 Horas
+        </div>
+        <h1>Desentupidora União</h1>
+        <p>Soluções rápidas, limpas e definitivas para desentupimento residencial, comercial e industrial com equipamentos de última geração.</p>
+    </div>
+
+    <div class="container">
+
+        <section id="servicos" class="card">
+            <div class="services-header">
+                <span class="section-tag">Nossas Especialidades</span>
+                <h2 class="section-title">Serviços Especializados</h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <span class="material-symbols-outlined service-icon">water_damage</span>
+                    <h3>Desentupimento de Pias e Ralos</h3>
+                </div>
+                <div class="service-card">
+                    <span class="material-symbols-outlined service-icon">cleaning_services</span>
+                    <h3>Limpeza de Fossas e Caixas</h3>
+                </div>
+                <div class="service-card">
+                    <span class="material-symbols-outlined service-icon">valve</span>
+                    <h3>Hidrojateamento de Alta Pressão</h3>
+                </div>
+                <div class="service-card">
+                    <span class="material-symbols-outlined service-icon">pest_control</span>
+                    <h3>Dedetização e Controle de Pragas</h3>
+                </div>
+            </div>
+        </section>
+
+        <main class="card" id="institucional">
+            <h2>
+                <span class="material-symbols-outlined" style="color: var(--secondary)">handshake</span>
+                Compromisso com o Cliente
+            </h2>
+            <div class="info-list">
+                <div class="info-item"><span class="info-key">Padrão de Serviço</span><span class="info-value">Execução limpa, rápida e sem quebra desnecessária de estruturas.</span></div>
+                <div class="info-item"><span class="info-key">Disponibilidade</span><span class="info-value">Equipes prontas para atendimento emergencial e agendado.</span></div>
+                <div class="info-item"><span class="info-key">Equipamentos</span><span class="info-value">Maquinário rotativo moderno e sistemas de hidrojateamento avançado.</span></div>
+                <div class="info-item"><span class="info-key">Garantia</span><span class="info-value"><span class="status-badge">ASSEGURADA</span> Certificação de conformidade e garantia pós-serviço.</span></div>
+                <div class="info-item"><span class="info-key">Setores Atendidos</span><span class="info-value">Residências, Condomínios, Indústrias, Comércios e Órgãos Públicos.</span></div>
+            </div>
+        </main>
+
+        <aside class="sidebar" id="contatos">
+            <div class="sidebar-card">
+                <h3>
+                    <span class="material-symbols-outlined">support_agent</span>
+                    Suporte Rápido
+                </h3>
+                <div class="contact-method">
+                    <span class="material-symbols-outlined contact-icon" style="color: var(--accent);">chat</span>
+                    <div>
+                        <strong>Orçamento via WhatsApp</strong><br>
+                        <a href="https://wa.me/5500000000000" target="_blank" style="color: var(--accent); font-weight: 600;">Clique para iniciar chat</a>
+                    </div>
+                </div>
+                <div class="contact-method">
+                    <span class="material-symbols-outlined contact-icon">call</span>
+                    <div>
+                        <strong>Central Telefônica</strong><br>
+                        <a href="tel:0000000000">Falar com Atendente</a>
+                    </div>
+                </div>
+                <div class="contact-method">
+                    <span class="material-symbols-outlined contact-icon">mail</span>
+                    <div>
+                        <strong>Contato por E-mail</strong><br>
+                        <a href="mailto:contato@desentupidorauniao.com.br">contato@desentupidorauniao.com.br</a>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+    </div>
+
+    <footer>
+        <p>© 2026 Desentupidora União. Todos os direitos reservados.</p>
+        <p style="font-size: 0.8rem; opacity: 0.6; margin-top: 5px;">Soluções integradas de saneamento e desentupimento técnico.</p>
+    </footer>
+
+</body>
+</html>
